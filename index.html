@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <!-- buton+image -->
+    <div class="clickevent">
+        <button id ="btn">Appuyer !</button>
+        <br>
+        <img src="planete1.jpg" id="img" alt="planete">
+    </div>
+    <!-- souris+bulle -->
+    <div class="mousseEvent">
+        <div> Horizontal :<span class="horizontal">0</span></div>
+        <div>Vertical : <span class="vertical">0</span></div>
+    </div>
+    <!-- ecriture dans la bulle -->
+    <div class="inputEvent">
+        <label for="input">Comment sa va aujourd'hui?</label>
+        <br>
+        <input type="text" id="input">
+        <div id="result"></div>
+    </div>
+    <!-- couleur -->
+    <div class="themeContainer">
+    <div class="theme" id="dark"></div>
+    <div class="theme" id="salmon"></div>
+    <div class="theme" id="yellow"></div>
+</div>
+<div class="theme" id="container"></div>
+<div class="theme" id="container"></div>
+<div class="theme" id="container"></div>
+    <script src="index.js"></script>
+</body>
+</html>
